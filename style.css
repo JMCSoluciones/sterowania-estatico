@@ -150,7 +150,7 @@
 }
 #icono-soporte{
 	padding: 0;
-}*/
+}
 
 /*#hero-subtitle-v2{
 	opacity: .85;
@@ -175,8 +175,23 @@
     border: 1px solid;
 }*/
 
-@media only screen and (max-width: 700px) {
-	#article-quienes, #article-servicios, #article-subrogacion, #article-turismo{
-		height: auto;
+@media only screen and (max-width: 1200px) {
+	
+
+    #enlaces-directos{
+		display: none;
 	}
+
+}
+@media only screen and (min-width: 1200px) {
+    
+ .footer-logo{
+        display: none;
+    }
+    .footer-call-us {
+        display: none;
+    }
+    .footer-address{
+        display: none;
+    }
 }
