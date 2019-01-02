@@ -1,0 +1,182 @@
+@import url(assets/css/bootstrap.min.css);
+@import url(assets/css/font-awesome.min.css);
+@import url(assets/css/animate.min.css);
+@import url(assets/css/font-electro.css);
+@import url(assets/css/owl-carousel.css);
+@import url(assets/css/style.css);
+@import url(assets/css/colors/tinto.css);
+
+
+#article-quienes{
+    line-height: 2em;
+    background-color: #603;
+    background-image: url(assets/images/1x/backgroundRecurso2.png);
+    background-position: center top; 
+  /*  background-size: cover;*/
+  	background-repeat: no-repeat;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    position: relative;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    color: white;
+    /* height: 371px; */
+    padding: 7%;
+
+
+}
+
+#article-quienes h1{
+    background-color: #603;
+    border: 2px solid #603;
+    /* opacity: .9; */
+    border-radius: 10px;
+    color: #fff;
+    width: fit-content;
+     padding: 30px;
+}
+#article-quienes p{
+	font-size: 1.2em;
+	border: 1px solid #603;
+    background-color: #603;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: .9;
+}
+#article-servicios{
+	line-height: 2em;
+	background-image: url(assets/images/1x/backgroundRecurso4.png);
+	 background-position: center top; 
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    position: relative;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    color: white;
+    /* height: 371px; */
+    padding-top: 2%;
+
+}
+.fa-whatsapp{
+    font-size: 4em;
+    color: #ce1d76;
+}
+#article-servicios h1{
+    color: #603;
+    text-align: center;
+    margin-bottom: 2.857em;
+    background-color: #ffffff;
+    opacity: .9;
+    padding: 30px;
+    margin: 0;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#article-servicios p{
+    font-size: 1.3em;
+    background-color: #603;
+    padding: 5px 10px;
+    border-radius: 10px;
+    opacity: 0.8;
+    width: fit-content;
+    line-height: 1.7em;
+}
+#article-soporte{
+	font-size: 1.3em;
+	line-height: 2em;
+    background-image: url(assets/images/soporte2.jpg);
+    background-position: center right;
+    background-size: cover;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    position: relative;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    color: white;
+    padding: 7%;
+}
+#article-soporte h1{
+	margin-bottom: 30px;
+
+}
+#article-soporte p{
+	font-size: 1.2em;
+
+    padding: 5px 10px;
+
+}
+#row-especializacion{
+	background-color: #666666;
+    color: #fff;
+}
+#row-especializacion p{
+	color: #fff;
+	font-size: 1.3em;
+}
+#article-inteligente{
+	line-height: 2em;
+    background-color: #000000;
+    background-image: url(assets/images/1x/backgroundRecurso7.png);
+    background-position: center top; 
+    /*background-size: cover;*/
+  	background-repeat: no-repeat;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    position: relative;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    color: white;
+    
+    padding: 7%;
+    font-size: 1.2em;
+}
+#article-inteligente h1{
+	
+	color: #fff;
+}
+#article-inteligente p{
+	font-size: 1.2em;
+   
+    padding: 20px 50px;
+    text-align: center;
+
+}
+#icono-soporte{
+	padding: 0;
+}*/
+
+/*#hero-subtitle-v2{
+	opacity: .85;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+#subtitleHeroSubrogacion{
+    top: 0px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: .9;
+    background-color: #e173aa;
+    color: white;
+    padding: 5px;
+}
+#subtitleHeroSubrogacion2{
+	    
+    top: 0px;
+    color: white;
+    text-align: center;
+    border: 1px solid;
+}*/
+
+@media only screen and (max-width: 700px) {
+	#article-quienes, #article-servicios, #article-subrogacion, #article-turismo{
+		height: auto;
+	}
+}
