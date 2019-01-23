@@ -10,7 +10,7 @@
 #article-quienes{
     line-height: 2em;
     background-color: #603;
-    background-image: url(assets/images/1x/backgroundRecurso2.png);
+   /* background-image: url(assets/images/1x/backgroundRecurso2.png);*/
     background-position: center top; 
   /*  background-size: cover;*/
   	background-repeat: no-repeat;
@@ -46,7 +46,7 @@
 }
 #article-servicios{
 	line-height: 2em;
-	background-image: url(assets/images/1x/backgroundRecurso4.png);
+	/*background-image: url(assets/images/1x/backgroundRecurso4.png);*/
 	 background-position: center top; 
     /*background-size: cover;*/
     background-repeat: no-repeat;
