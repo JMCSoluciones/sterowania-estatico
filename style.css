@@ -29,10 +29,10 @@
 
 #article-quienes h1{
     background-color: #603;
-    border: 2px solid #603;
+
     /* opacity: .9; */
     border-radius: 10px;
-    color: #fff;
+    color: white;
     width: fit-content;
      padding: 5px;
 }
@@ -42,23 +42,21 @@
     background-color: #603;
     padding: 10px;
     border-radius: 10px;
-    opacity: .9;
+;
 }
 #article-servicios{
-	line-height: 2em;
-	/*background-image: url(assets/images/1x/backgroundRecurso4.png);*/
-	 background-position: center top; 
-    /*background-size: cover;*/
-    background-repeat: no-repeat;
+	line-height: 1.7em;
     width: 100vw;
     margin-left: -50vw;
     left: 50%;
     position: relative;
     margin-bottom: 0;
-    background-attachment: fixed;
     color: white;
     /* height: 371px; */
     padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #603;
+
 
 }
 .fa-whatsapp{
@@ -66,25 +64,17 @@
     color: #ce1d76;
 }
 #article-servicios h1{
-    color: #603;
+    color: white;
     text-align: center;
-    margin-bottom: 2.857em;
-    background-color: #ffffff;
-    opacity: .9;
-    padding: 5px;
-    margin: 0;
     width: fit-content;
-    border-radius: 10px;
 }
 
 #article-servicios p{
     font-size: 1.3em;
-    background-color: #603;
     padding: 5px 10px;
     border-radius: 10px;
-    opacity: 0.8;
     width: fit-content;
-    line-height: 1.7em;
+    line-height: 2em;
 }
 #article-soporte{
 	font-size: 1.3em;
@@ -112,7 +102,7 @@
 
 }
 #row-especializacion{
-	background-color: #666666;
+	background-color: #660033;
     color: #fff;
 }
 #row-especializacion p{
@@ -150,6 +140,10 @@
 }
 #icono-soporte{
 	padding: 0;
+}
+#hero-subtitle-v2{
+    background-color: white;
+    padding: .7em;
 }
 
 /*#hero-subtitle-v2{
