@@ -6,7 +6,13 @@
 @import url(assets/css/style.css);
 @import url(assets/css/colors/tinto.css);
 
+.industrial-mantenimiento p{
+    color: white;
 
+}
+.industrial-mantenimiento{
+    background-color: #603;
+}
 #article-quienes{
     line-height: 2em;
     background-color: #603;
@@ -172,6 +178,9 @@
         margin-top: 10px;
     margin-bottom: 0;
     padding: 0;
+}
+#industrial-servicios, #industrial-servicios p, #industrial-mantenimiento, #industrial-mantenimiento p{
+    color: white;
 }
 
 @media only screen and (max-width: 1200px) {
